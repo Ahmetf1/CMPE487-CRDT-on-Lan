@@ -1,3 +1,5 @@
+This project is co-conducted with [Burak Yilmaz](https://www.github.com/yilmaz-burak) for the final project of Cmpe 487 Computer networks class.
+
 # 487-Final-Project
 We will implement a CRDT for a simple integer. Nodes will operate on their local data, and sync continuously to reach to the correct global value. Once in a while, they will have a full-sync mode,
 where they will all stop the operations on the integer until all the nodes are synced.
